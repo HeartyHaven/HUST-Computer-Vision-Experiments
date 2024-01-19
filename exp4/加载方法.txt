@@ -1,0 +1,2 @@
+model = torch.load('torch_alex.pth')
+torch_alex.pth实验资料中会提供，这里因为太大了所以上传了一个同名空文件作为示意。

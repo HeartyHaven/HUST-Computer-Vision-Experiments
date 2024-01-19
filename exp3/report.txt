@@ -1,0 +1,10 @@
+report:
+               precision    recall  f1-score   support
+
+    not_same       0.91      0.86      0.89      5001
+        same       0.87      0.91      0.89      4999
+
+    accuracy                           0.89     10000
+   macro avg       0.89      0.89      0.89     10000
+weighted avg       0.89      0.89      0.89     10000
+
