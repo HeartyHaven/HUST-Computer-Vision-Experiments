@@ -1,14 +1,14 @@
-# 华中科技大学计算机视觉(Computer Vision)课程实验
-HAVEN 1/19/2024
+# Computer Vision Course Experiments at Huazhong University of Science and Technology
+Lang Gao 1/19/2024
 
 ---
 
-## 实验内容
-- exp1: 设计前馈神经网络实现二维向量的二分类任务。
-- exp2: 设计卷积神经网络实现MNIST手写数字十分类任务。
-- exp3: 设计神经网络实现判断多张MNIST手写数字是否相同的二分类任务。
-- exp4: 实现神经网络可解释性算法Grad-CAM,Layer-CAM，并且用这两种算法分析AlexNet在3个样本图片的特征提取情况。
-- exp_final: 综合实验，撰写一篇计算机视觉领域综述性报告，或可解释性分析专题实验报告（需要复现相关算法）。
+## Experiment Content
+- **exp1:** Design a feedforward neural network for binary classification of 2D vectors.
+- **exp2:** Design a convolutional neural network for the ten-class classification task on MNIST handwritten digits.
+- **exp3:** Design a neural network for binary classification to determine if multiple MNIST handwritten digits are identical.
+- **exp4:** Implement neural network interpretability algorithms Grad-CAM and Layer-CAM, and use these algorithms to analyze the feature extraction of AlexNet on three sample images.
+- **exp_final:** Comprehensive experiment, write a review report in the field of computer vision or a special report on interpretability analysis (requires reproducing related algorithms).
 
-## 项目结构
-每个 `exp{x}` 是一个实验的项目文件，包含代码和报告。代码均用jupyter notebook书写，可在cpu上复现。exp1,exp2,exp3,exp4中均涉及对照实验，复现的时候可能需要改变参数多次运行，具体参数设置可以参考实验报告，或者imgs文件夹下的对照实验分析图片的名称等等，请自行调整。
+## Project Structure
+Each `exp{x}` is a project file for an experiment, containing code and a report. All code is written in Jupyter Notebook and can be reproduced on a CPU. Each of exp1, exp2, exp3, and exp4 includes control experiments, which may require changing parameters and running multiple times. Specific parameter settings can be referenced in the experiment reports or the names of comparative analysis images in the `imgs` folder. Please adjust accordingly.
